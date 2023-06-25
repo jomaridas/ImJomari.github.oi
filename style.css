@@ -324,9 +324,6 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-nav .fa-solid{
-    display: none;
-}
 
 @media only screen and (max-width: 600px){
     #header{
@@ -345,6 +342,7 @@ nav .fa-solid{
     }
     nav ul{
         background: #ff004f;
+        position: fixed;
         top: 0;
         right: -200px;
         width: 200px;
